@@ -1,0 +1,37 @@
+h1 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.products-div {
+    padding: 2% 0%;
+}
+
+.product-col {
+    padding: 1%;
+}
+
+.product-row {
+    padding: 2% 0%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .product-row {
+        padding: 2% 5%;
+    }
+    .product-col {
+        padding: 3%;
+    }
+}
+
+.product-card {
+    border: 1px solid #ccc;
+}
+
+.rating-star {
+    color: #FDCC0D;
+}

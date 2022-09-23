@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
+body {
+    font-family: "Jost", sans-serif;
+    background: #eee;
+}
+
+.nav-link {
+    color: #000 !important;
+    font-weight: 500;
+}
+
+i {
+    color: black;
+}
+
+.font-one {
+    font-size: 1.55rem;
+    font-weight: 300;
+}
+
+.font-h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#collapseOne {
+    margin-bottom: -20px;
+}
+
+.form-group {
+    padding: 0;
+    margin: 0;
+}

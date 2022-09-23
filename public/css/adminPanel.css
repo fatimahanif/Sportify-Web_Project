@@ -1,0 +1,82 @@
+a {
+  text-decoration: none;
+  color: #ccc !important;
+}
+a:hover {
+  text-decoration: none;
+}
+#adminNavbar {
+  height: 70px;
+}
+
+.adminNavSearch {
+  display: none !important;
+}
+
+.vericalAdminBar {
+  position: fixed;
+  top: 70px;
+  left: 0px;
+  color: #ccc;
+  background: #1d2939;
+  width: 200px;
+  cursor: pointer;
+  height: 100vh;
+  z-index: 999;
+}
+
+.vericalAdminBar i {
+  color: #ccc;
+}
+.vericalAdminBar li {
+  background-color: #1d2939;
+  padding: 14px 20px;
+  transition: all 0.3s ease;
+}
+
+.vericalAdminBar li:hover {
+  background: #4285f4;
+  color: #fff;
+}
+
+.vericalAdminBar li:hover .list-group-link {
+  color: #fff !important;
+}
+.squareInfo i {
+  font-size: 50px;
+  color: #fff;
+}
+
+.squareInfo {
+  border-radius: 10px;
+}
+
+.squareInfo p {
+  padding: 0px;
+}
+
+/* ######################## NEWLU REGISTERED USERS ####################### */
+
+.registeredUserTable {
+  cursor: pointer;
+}
+
+.registeredUserTable tr:hover {
+  background: #4285f4 !important;
+  color: #eee;
+}
+.registeredUserTable [scope="row"] img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+/* Media queries */
+@media (min-width: 992px) {
+  /* .searchfeatureAdmin .adminNavSearchButton {
+  } */
+  .adminNavSearch {
+    display: inline-block !important;
+    width: 440px !important;
+  }
+}
